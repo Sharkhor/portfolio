@@ -1,0 +1,89 @@
+body{
+    height: 100%dh;
+    background-color: #F4F1EA;
+}
+
+nav{
+    background-color: #FAF9F6;
+    height: 40px;
+    padding: 20px;
+    margin: 10px 20px;
+}
+
+a {
+    color: #C87D55;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+    margin: 20px;
+    font-weight: bolder;
+}
+
+h1, h2, h3 {
+    color: #2C4A3E;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {font-size: 30px;}
+
+main {
+    background-color: #3e6641;
+    padding: 10px;
+    margin: 10px  20px;
+    height: 60%dvh;
+}
+.rolemodel{
+    background-image: src("/images/cr7.jpeg");
+    width: 25%;
+    background-repeat: no-repeat;
+}
+
+p {
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: justify;
+}
+
+ul {
+    color: white;
+    padding: 10px;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: justify;
+}
+
+a:hover{ color: #f75a06;}
+
+.bgclass {
+  background-image: url('images/cr7.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.flex-container{
+    display:flex; 
+    gap 20px; 
+    align-items: stretch;
+}
+
+.image-container {
+    flex: 1;
+}
+
+.text-container{
+    flex: 2;
+}
+
+.image-container img{
+    height: 100%; 
+    width: 100%; 
+    object-fit: cover; 
+    display: block;
+}

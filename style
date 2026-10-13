@@ -1,0 +1,25 @@
+body{
+    height: 100%vh;
+    background-color: #F4F1EA;
+}
+
+nav{
+    background-color: #FAF9F6;
+}
+
+a {
+    background-color: #C87D55;
+}
+
+h1, h2, h3 {
+    color: #2C4A3E;
+}
+
+main {
+    background-color: #ffffff;
+}
+.rolemodel{
+    background-image: src("/images/cr7.jpeg");
+    width: 25%;
+    background-repeat: no-repeat;
+}
